@@ -449,7 +449,7 @@ abstract class WebBrowserActivity : ThemedBrowserActivity(),
                         // TODO: Remove that a few versions down the road
                         && tabsManager.iSessions.count()==1 && tabsManager.allTabs.count()==1) {
                     // First run
-                    welcomeToFulguris()
+                   // welcomeToFulguris() uncommenting this code to remove welcome message on first install
                 } else {
                     // Version was updated
                     notifyVersionUpdate()
