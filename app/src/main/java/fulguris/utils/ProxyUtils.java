@@ -133,7 +133,7 @@ public final class ProxyUtils {
             case NONE:
                 // We shouldn't be here
                 host = "localhost";
-                port = 8432;
+                port = 8080;
                 return;
             case ORBOT:
                 if (!OrbotHelper.isOrbotRunning(activity)) {

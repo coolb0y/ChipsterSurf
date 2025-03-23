@@ -58,7 +58,7 @@ class UserPreferences @Inject constructor(
     /**
      * True if the browser should block images from being loaded, false otherwise.
      */
-    var loadImages by preferences.booleanPreference(R.string.pref_key_load_images, true)
+    var loadImages by preferences.booleanPreference(R.string.pref_key_load_images, false)
 
     /**
      * True if the browser should clear the browser cache when the app is exited, false otherwise.
@@ -315,7 +315,7 @@ class UserPreferences @Inject constructor(
     /**
      * The proxy port used when [proxyChoice] is [ProxyChoice.MANUAL].
      */
-    var proxyPort by preferences.intPreference(USE_PROXY_PORT, 8432)
+    var proxyPort by preferences.intPreference(USE_PROXY_PORT, 8080)
 
     /**
      * The index of the search suggestion choice.
