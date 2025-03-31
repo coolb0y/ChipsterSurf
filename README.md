@@ -99,3 +99,5 @@ Here are some of the tools we use to develop Fulguris:
 [SVG path editor]: https://yqnn.github.io/svg-path-editor/
 [Android Studio]: https://developer.android.com/studio
 [Affinity Designer]: https://affinity.serif.com/en-us/designer/
+To sign apk
+```apksigner sign --ks my-release-key.jks --ks-key-alias my-key-alias --out signed.apk Fulguris-v1.9.31-slions-full-fdroid-release-unsigned.apk``` 
