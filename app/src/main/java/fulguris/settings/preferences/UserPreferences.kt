@@ -315,7 +315,7 @@ class UserPreferences @Inject constructor(
     /**
      * The proxy port used when [proxyChoice] is [ProxyChoice.MANUAL].
      */
-    var proxyPort by preferences.intPreference(USE_PROXY_PORT, 8080)
+    var proxyPort by preferences.intPreference(USE_PROXY_PORT, 20286)
 
     /**
      * The index of the search suggestion choice.

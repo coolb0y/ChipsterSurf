@@ -47,7 +47,7 @@ We do our best to avoid treating users as beta testers. Therefore if you want to
 
 # Features
 📑Sessions  
-📶 Already Manual Proxy enabled at port 8432
+📶 Already Manual Proxy enabled at port 20286
 🌍 No Popup on first Start
 🌍 Address bar  
 🚦Vertical tab panel  
